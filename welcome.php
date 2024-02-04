@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnerHub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon"  href="favicon.ico">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LearnerHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Resources
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="article.html">Articles</a></li>
+              <li><a class="dropdown-item" href="survey.html">Survey</a></li>
+              <li><a class="dropdown-item" href="research.html">Research</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Specialized Tests
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Studies</a></li>
+              <li><a class="dropdown-item" href="#">Career</a></li>
+              <li><a class="dropdown-item" href="#">Personal Growth</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Welcome <?php session_start(); echo $_SESSION['username'];?></a>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+
+        </form>
+      </div>
+    </div>
+    
+
+    <!-- Modal -->
+    
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!-- Button trigger modal -->
+
+
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Basic Reasoning(iQ) Test</h5>
+          <p class="card-text">LearnerHub offers a platform where you can assess your learning potential by responding to straightforward questions. Just click the button below to get started!</p>
+          <a href="Test.html" class="btn btn-primary">Take Test</a>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="iQ3.gif">      <!--index1.pg previously-->
+        </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Unlock your true potential</h5>
+          <div class="mb-1 text-muted">Let's Crack Enginerring Entrance</div>
+          <p class="card-text">Even if you have been identified as a slow learner, don't worry,At LearnerHub, we provide personalized JEE preparation materials tailored to your IQ and test performance, ensuring every learner can excel at their own pace.
+
+
+
+
+
+          </p> 
+          
+          <a href="#" class="btn btn-primary">View Results</a>
+          
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="Thermodynamics.jpg">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Team Behind it</h4>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-linkedin-square" style="font-size:24px"></i><a id="linkedin" href="https://www.linkedin.com/in/pratik-singh-53b297254/" target="_blank"> Pratik Kumar Singh</a></li>
+            <li><i class="fa fa-linkedin-square" style="font-size:24px"></i><a id="linkedin" href="https://www.linkedin.com/in/vivek-chaurasia-877100272/" target="_blank"> Vivek Chaurasia</a></li>
+            <li><i class="fa fa-linkedin-square" style="font-size:24px"></i><a id="linkedin" href="https://www.linkedin.com/in/rajdeep-senapati-378088259/" target="_blank"> Rajdeep Senapati</a></li>
+            <li><i class="fa fa-linkedin-square" style="font-size:24px"></i><a id="linkedin" href="https://www.linkedin.com/in/subhadip-singha-b84a23251/" target="_blank"> Subhadip Singha</a></li>
+          
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Services</h4>
+          <ul class="list-unstyled">
+            <li>Web Design</li>
+            <li>Development</li>
+           
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact Us</h4>
+          <ul class="list-unstyled">
+            <li>Email: LearnerHub@gmail.com</li>
+            <li>Phone: +1234567890</li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+  
+
+  <div class="text-center p-3" style="background-color: rgba(215, 215, 201, 0.05); font-weight: bolder;">
+    © &lt;&lt; 2024 Copyright &gt; &gt;:
+    <a class="text-body" href="#">LearnerHub.com</a>
+  </div>
+  
+
+</div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+<script src="index.js"></script>
+
+</html>
